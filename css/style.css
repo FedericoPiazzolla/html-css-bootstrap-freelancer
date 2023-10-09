@@ -26,3 +26,24 @@ header a {
     display: none;
   }
 }
+
+/* HERO */
+#hero {
+  background-color: #1ABC9C;
+}
+
+.container_80 {
+  width: 80%;
+  margin: 0 auto;
+
+  /* debug */
+  min-height: 400px;
+}
+
+@media screen and (min-width:768px) {
+  .container_80 {
+    width: 60%;
+  }
+}
+
+/* PORTFOLIO */
