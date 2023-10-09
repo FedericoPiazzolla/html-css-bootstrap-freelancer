@@ -1,6 +1,8 @@
 /* ROOT */
 :root {
-  --bg-color-ocean:#1ABC9C
+  --bg-color-ocean:#1ABC9C;
+  --bg-top-footer:#3A546D;
+  --bg-bottom-footer:#2C3E50;
 }
 /* HEADER */
 header {
@@ -60,4 +62,17 @@ header a {
 /* CONTACT ME */
 #contacts-me {
   min-height: 300px;
+}
+
+/* FOOTER */
+footer {
+  background-color: var(--bg-top-footer);
+}
+
+#footer-bottom {
+  background-color: var(--bg-bottom-footer);
+  color: white;
+  text-align: center;
+  /* debug */
+  height: 80px;
 }
