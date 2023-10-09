@@ -1,3 +1,7 @@
+/* ROOT */
+:root {
+  --bg-color-ocean:#1ABC9C
+}
 /* HEADER */
 header {
   background-color: #2C3E50;
@@ -29,7 +33,7 @@ header a {
 
 /* HERO */
 #hero {
-  background-color: #1ABC9C;
+  background-color: var(--bg-color-ocean);
 }
 
 .container_80 {
@@ -37,7 +41,7 @@ header a {
   margin: 0 auto;
 
   /* debug */
-  min-height: 400px;
+  min-height: 300px;
 }
 
 @media screen and (min-width:768px) {
@@ -46,3 +50,14 @@ header a {
   }
 }
 
+/* ABOUT */
+#about {
+  background-color: var(--bg-color-ocean);
+  /* debug */
+  min-height: 300px
+}
+
+/* CONTACT ME */
+#contacts-me {
+  min-height: 300px;
+}
