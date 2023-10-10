@@ -46,9 +46,6 @@ header a {
 .container_80 {
   width: 80%;
   margin: 0 auto;
-
-  /* debug */
-  min-height: 300px;
 }
 
 @media screen and (min-width:768px) {
@@ -67,6 +64,22 @@ header a {
 #about {
   background-color: var(--ms_bg-color-ocean);
   color: white;
+}
+
+/* CONTACS ME */
+.ms_border-none {
+  border: none;
+  border-bottom: 1px solid lightgray;
+  width: 100%;
+  padding-bottom: .5rem;
+}
+
+.ms_btn {
+  background-color: var(--ms_bg-color-ocean);
+  color: white;
+  border: none;
+  padding: .6rem .8rem;
+  border-radius: .5rem;
 }
 
 /* FOOTER */
