@@ -17,10 +17,6 @@ header a {
   text-decoration: none;
 }
 
-.header-list li {
-  list-style-type: none;
-}
-
 
 /* MAIN */
 .ms_star {
@@ -66,20 +62,17 @@ header a {
   border-radius: 2rem;
   background-color: transparent;
 }
+
 /* ABOUT */
 #about {
   background-color: var(--ms_bg-color-ocean);
   color: white;
 }
 
-/* CONTACT ME */
-#contacts-me {
-  min-height: 300px;
-}
-
 /* FOOTER */
 footer {
   background-color: var(--ms_bg-top-footer);
+  color: white;
 }
 
 #footer-bottom {
@@ -88,4 +81,24 @@ footer {
   text-align: center;
   /* debug */
   min-height: 80px;
+}
+
+.ms_tag {
+  text-decoration: none;
+  color: var(--ms_bg-color-ocean);
+}
+
+.ms_li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  border: 1px solid;
+  border-radius: 50%;
+  margin: 0 .3rem;
+}
+
+.ms_li a {
+  color: inherit;
 }
