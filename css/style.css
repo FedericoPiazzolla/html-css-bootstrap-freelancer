@@ -17,23 +17,10 @@ header a {
   text-decoration: none;
 }
 
-.header-list {
-  display: none;
-}
-
 .header-list li {
   list-style-type: none;
 }
 
-@media screen and (min-width:768px) {
-  .header-list {
-    display: flex;
-  }
-
-  .example {
-    display: none;
-  }
-}
 
 /* MAIN */
 .ms_star {
